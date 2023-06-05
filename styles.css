@@ -44,6 +44,8 @@ img {
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
+  width: 358px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -352,6 +354,7 @@ img {
   font-weight: 700;
   line-height: 1.4;
   font-size: 20px;
+  margin: 0 auto;
 }
 
 .footerMenu {
