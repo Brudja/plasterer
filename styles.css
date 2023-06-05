@@ -46,6 +46,7 @@ img {
   margin-right: auto;
   width: 358px;
   margin: 0 auto;
+  position: relative;
 }
 
 .logo {
