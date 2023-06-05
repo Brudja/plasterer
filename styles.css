@@ -67,7 +67,7 @@ img {
   margin-bottom: 0px;
 }
 
-.menu{
+.menu {
   margin: 0;
   display: flex;
   gap: 16px;
@@ -77,69 +77,66 @@ img {
   align-items: center;
 }
 
+.mobil__container {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 16px 16px;
+  background-color: var(--text-color-white);
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+}
 
-  .mobil__container {
-      position: fixed;
-      z-index: 3;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      padding: 16px 16px;
-      background-color: var(--text-color-white);
-      display: flex;
-      flex-direction: column;
-      pointer-events: none;
-      visibility: hidden;
-      opacity: 0;
-    }
-  
-  
-  .is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: all;
-  }
-  
-  .mobil__menu-btn {
-    position: absolute;
-    top: 5px;
-    right: 15px;
-    z-index: 5;
-    width: 40px;
-    height: 40px;
-    border: none;
-    background-color: transparent;
-    fill: var(--text-color-black);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .mobil__menu-btn:hover,
-  .mobil__menu-btn:focus {
-      fill: var(--acent-color);
-      outline: none;
-    }
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
 
-      .mobil__menu-btn{
-      display: none;
-    
-  }
-  
-  .mobil__menu-btn .icon-close {
-    display: none;
-  }
-  
-  .mobil__menu-btn.is-open .icon-close {
-    display: block;
-  }
-  
-  .mobil__menu-btn.is-open .icon-menu {
-    display: none;
-  }
-  
-  .navLink{
-    color: var(--text-color-black);
-  }
+.mobil__menu-btn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  fill: var(--text-color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobil__menu-btn:hover,
+.mobil__menu-btn:focus {
+  fill: var(--acent-color);
+  outline: none;
+}
+
+/* .mobil__menu-btn {
+  display: none;
+} */
+
+.mobil__menu-btn .icon-close {
+  display: none;
+}
+
+.mobil__menu-btn.is-open .icon-close {
+  display: block;
+}
+
+.mobil__menu-btn.is-open .icon-menu {
+  display: none;
+}
+
+.navLink {
+  color: var(--text-color-black);
+}
 /* ===================================================HERO========================================================= */
 
 .hero {
@@ -369,44 +366,43 @@ img {
   color: var(--text-color-black);
 }
 
-.footerNavLink{
+.footerNavLink {
   text-decoration: none;
   color: var(--text-color-black);
 }
 
-
 .footerItem:not(:last-child) {
-    margin-bottom: 24px;
-  }
+  margin-bottom: 24px;
+}
 
-  .footerContacts{
-    font-size: 14px;
-    text-align: center;
-  }
+.footerContacts {
+  font-size: 14px;
+  text-align: center;
+}
 
-  .footerText{
-    margin: 0 0 16px 0;
-  }
+.footerText {
+  margin: 0 0 16px 0;
+}
 
-  .footerPhone{
-    margin: 0 0 8px 0;
-  }
+.footerPhone {
+  margin: 0 0 8px 0;
+}
 
-  .media{
-    text-align: center;
-    margin: 0 0 25px 0;
-  }
+.media {
+  text-align: center;
+  margin: 0 0 25px 0;
+}
 
-  .mediaList{
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-  }
+.mediaList {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
 
-  .footerContactsList a{
-    list-style: none;
+.footerContactsList a {
+  list-style: none;
   text-decoration: none;
   padding: 0;
   margin: 0;
   color: var(--text-color-black);
-  }
+}
