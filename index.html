@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="Home" class="container-header">
+      <div class="logo">
+        <img
+          class="logoImage"
+          src="images/svg/logo.svg"
+          width="32px"
+          height="24px"
+          alt="Логотип"
+        />
+        <p class="logoText">shtukatur.te.ua</p>
+      </div>
+      <button class="mobil__menu-btn" data-menu-button type="button">
+        <svg class="mobil__menu-icon" width="40px" height="40px">
+          <image class="icon-menu" xlink:href="./images/svg/menu.svg"/>
+          <image class="icon-close" xlink:href="./images/svg/close.svg"/>
+        </svg>
+      </button>
+      <nav class="mobil__container" data-menu>
+        <ul class="menu list">
+          <li><a class="navLink list" href="#AboutUs">Про нас</a></li>
+          <li><a class="navLink list" href="#OurWorks">Наші роботи</a></li>
+          <li><a class="navLink list" href="#Prices">Ціни</a></li>
+          <li><a class="navLink list" href="#Contacts">Контакти</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1 class="heroTitle">Машинна Штукатурка</h1>
+        <h2 class="heroTitleSecond">
+          Професійно виконуємо штукатурку стін, відкосів та стелі.
+        </h2>
+        <ul class="list heroList">
+          <li>Поверхня готова під поклейку шпалер.</li>
+          <li>Машинки 220 та 380 вольт.</li>
+          <li>Гіпсова та цементно-вапняна суміш.</li>
+        </ul>
+        <a class="list heroText" href="tel:+380682168419">(068) 216-84-19</a>
+      </section>
+      <section id="AboutUs" class="container ourUs">
+        <h2 class="ourUsTitle">Якість</h2>
+        <ul class="ourUsList list">
+          <li>&#8226; Міцний,екологічно чистий матеріал</li>
+          <li>
+            &#8226; Поверхня готова до поклейки шпалер, нанесення декоративних
+            штукатурок та шпаклівок
+          </li>
+        </ul>
+        <h2 class="ourUsTitle">Швидкість</h2>
+        <ul class="ourUsList list">
+          <li>&#8226; В декілька раз швидше від ручного нанесення</li>
+          <li>&#8226; Швидкість висихання 7 діб</li>
+        </ul>
+        <h2 class="ourUsTitle">Економія</h2>
+        <ul class="ourUsList list">
+          <li>&#8226; Дешевше відносно іншиш способів штукатурки</li>
+          <li>&#8226; Доступна ціна</li>
+        </ul>
+      </section>
+      <section class="container ourUsSecond">
+        <h2 class="ourUsSecondTitle">У вартість входить</h2>
+        <ul class="list">
+          <li class="ourUsSecondItem">
+            <img src="./images/1.png" width="358px" height="237px" />
+            <p class="text-overlay">Виїзд на об’єкт, заміри та консультація</p>
+          </li>
+          <li class="ourUsSecondItem">
+            <img src="./images/2.png" width="358px" height="237px" />
+            <p class="text-overlay">
+              Грунтування, армування, монтаж маяків під 3D лазерний рівень
+            </p>
+          </li>
+          <li class="ourUsSecondItem">
+            <img src="./images/3.png" width="358px" height="237px" />
+            <p class="text-overlay">
+              Нанесення гіпсової або цементно-вапняної суміші
+            </p>
+          </li>
+          <li class="ourUsSecondItem">
+            <img src="./images/4.png" width="234px" height="351px" />
+            <p class="text-overlay">Торцування, замивка та глянсування стін</p>
+          </li>
+          <li class="ourUsSecondItem right-aligned">
+            <img src="./images/5.png" width="234px" height="351px" />
+            <p class="text-overlay">
+              Прибирання приміщення по закінченню робіт
+            </p>
+          </li>
+          <li class="ourUsSecondItem">
+            <img src="./images/6.png" width="234px" height="351px" />
+            <p class="text-overlay">Здача об’єкта клієнту</p>
+          </li>
+        </ul>
+      </section>
+      <section id="OurWorks" class="container">
+        <p class="ourWorksText">
+          Наші майстри з великим досвідом роботи в даній сфері, тому кожен
+          об’єкт здано на відмінно. В нас є декілька бригад, що дозволяє нам
+          виконувати роботу за коротший інтервал часу.
+        </p>
+        <p class="ourWorksTextSecond">
+          З кожним клієнтом ми працюємо з індивідуальним підходом,тому що хоч і
+          наша робота здається одноманітною, але кожен об’єкт відрізняється від
+          попереднього.
+        </p>
+        <h2 class="ourWorksTitle">Наші роботи</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/works/0.jpg" width="358px" height="400px" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/works/1.jpg" width="358px" height="400px" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/works/2.jpg" width="358px" height="400px" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/works/3.jpg" width="358px" height="400px" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/works/4.jpg" width="358px" height="400px" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/works/5.jpg" width="358px" height="400px" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <div class="call">
+          <p class="callText">Телефонуйте</p>
+          <p class="callPhone"><a class="list callPhone" href="tel:+380682168419">(068) 216-84-19</a></p>
+        </div>
+      </section>
+      <section id="Prices" class="container price">
+        <h2 class="priceTitle">Штукатурка стін механізованим способом</h2>
+        <ul class="priceList list priceListOne">
+          <li class="priceItem">
+            &#8226; Машинна штукатурка виконується завдяки спеціальній станції
+            працюючої як на гіпсових так і на цементно-вапняних сумішах.
+          </li>
+          <li>
+            &#8226; Це сучасний, економний і швидкий спосіб підготовки зовнішніх
+            та внутрішніх поверхонь перед фінішним оздобленням.
+          </li>
+        </ul>
+        <h2 class="priceTitle">Ціна машинної штукатурки</h2>
+        <ul class="priceList list">
+          <li class="priceItem">&#8226; Від 120 грн м2 робота</li>
+          <li>&#8226; Від 300 грн м2 робота з матеріалом</li>
+        </ul>
+        <h2 class="priceTitle">Ми працюємo</h2>
+        <p class="priceText">&#8226; Київ та область</p>
+      </section>
+    </main>
+    <footer id="Contacts" class="footer">
+      <div class="footerMenu">
+        <ul class="footerNav list">
+          <li class="footerItem"><a class="footerNavLink" href="#Home">Головна</a></li>
+          <li class="footerItem"><a class="footerNavLink" href="#AboutUs">Про нас</a></li>
+          <li class="footerItem"><a class="footerNavLink" href="#OurWorks">Наші роботи</a></li>
+          <li class="footerItem"><a class="footerNavLink" href="#Prices">Ціни</a></li>
+        </ul>
+        <div class="footerContacts">
+          <p class="footerText">Контакти</p>
+          <ul class="footerContactsList list">
+            <li class="footerPhone"><a class="list" href="tel:+380682168419">(068) 216-84-19</a></li>
+            <li><a class="list" href="mailto:bljumer111@gmail.com">bljumer111@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="media">Ми в соціальних мережах</p>
+      <ul class="mediaList list">
+        <li><a href="https://www.tiktok.com/@shtukatur_ua?_t=8Ybgkvbh6VK" target="_blank"><img src="Images/svg/tiktok.svg" alt="TikTok" width="46px" height="46px"></a></li>  
+        <li><a href="https://www.instagram.com/reel/CmumqsQobhz/?igshid=Zjc2ZTc4Nzk=" target="_blank"><img src="Images/svg/instagram.svg" alt="Instagram" width="46px" height="46px"></a></li>
+        <li><a href="https://fb.watch/hKuwgztB1p/" target="_blank"><img src="Images/svg/facebook.svg" alt="Facebook" width="46px" height="46px"></a></li>
+        <li><a href="https://youtu.be/JOJeYvud5qw" target="_blank"><img src="Images/svg/youtube.svg" alt="Youtube" width="46px" height="46px"></a></li>
+      </ul>
+    </footer>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script src="./index.js"></script>
+  </body>
+</html>
