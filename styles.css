@@ -119,10 +119,10 @@ img {
       fill: var(--acent-color);
       outline: none;
     }
-    @media (min-width: 768px) {
+
       .mobil__menu-btn{
       display: none;
-    }
+    
   }
   
   .mobil__menu-btn .icon-close {
@@ -137,7 +137,6 @@ img {
     display: none;
   }
   
-
   .navLink{
     color: var(--text-color-black);
   }
