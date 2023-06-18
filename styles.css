@@ -55,7 +55,7 @@ img {
   height: auto;
 }
 
-img.img {
+/* img.img {
   width: 358px;
 }
 
@@ -68,6 +68,25 @@ img.img {
 
 @media (min-width: 1440px) {
   img.img {
+    height: 430px;
+    width: 265px;
+  }
+} */
+
+.img {
+  width: 358px;
+  height: 430px;
+}
+
+@media (min-width: 768px) {
+  .img {
+    width: 213px;
+    height: 351px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .img {
     height: 430px;
     width: 265px;
   }
@@ -466,9 +485,6 @@ h1 span {
   }
 }
 
-
-
-
 .ourUsSecondList {
   display: flex;
   flex-direction: column;
@@ -497,10 +513,11 @@ h1 span {
 }
 
 @media (min-width: 1440px) {
-  .ourUsSecondItem  {
-    width: 31.33%;
+  .ourUsSecondItem {
+    /* width: 31.33%;
     padding: 10px;
-    box-sizing: border-box;
+    box-sizing: border-box; */
+    border: 1px solid #EEEEEE;
   }
 }
 
@@ -527,13 +544,11 @@ h1 span {
 
 /* ====================================================ourWorks=================================================== */
 
-
-
 @media (min-width: 1440px) {
-  .ourWorksBox{
+  .ourWorksBox {
     display: flex;
-      padding: 0 69px;
-      gap: 160px;
+    padding: 0 69px;
+    gap: 160px;
   }
 }
 
@@ -543,10 +558,21 @@ h1 span {
   line-height: 1.4;
 }
 
+@media (min-width: 768px) {
+  .ourWorksText {
+    font-size: 20px;
+  }
+}
+
 .ourWorksTextSecond {
   margin: 0 0 24px 0;
   font-size: 14px;
   line-height: 1.4;
+}
+@media (min-width: 768px) {
+  .ourWorksTextSecond {
+    font-size: 20px;
+  }
 }
 
 .ourWorksTitle {
@@ -624,7 +650,7 @@ h1 span {
 
 @media (min-width: 1440px) {
   .priceTitle {
-    font-size: 32px;
+    font-size: 40px;
     padding: 0;
   }
 }
@@ -633,6 +659,12 @@ h1 span {
   font-size: 20px;
   text-align: center;
   margin: 0 0 8px 0;
+}
+
+@media (min-width: 1440px) {
+  .priceTitleSecond {
+    font-size: 32px;
+  }
 }
 
 .priceListOne {
@@ -648,9 +680,27 @@ h1 span {
   }
 }
 
+@media (min-width: 1440px) {
+  .priceListOne {
+    justify-content: space-around;
+  }
+}
+
 .priceList {
   margin-bottom: 20px;
   text-align: center;
+}
+
+@media (min-width: 1440px) {
+  .priceList {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1440px) {
+  .priceItem {
+    width: 489px;
+  }
 }
 
 .priceItem:not(:last-child) {
@@ -660,6 +710,12 @@ h1 span {
 .priceText {
   text-align: center;
   margin: 0;
+}
+
+@media (min-width: 1440px) {
+  .priceText {
+    text-align: left;
+  }
 }
 
 @media (min-width: 768px) {
@@ -672,8 +728,9 @@ h1 span {
 @media (min-width: 1440px) {
   .priceListTwo {
     display: flex;
-    gap: 300px;
-    justify-content: center;
+    gap: 154px;
+    justify-content: flex-start;
+    padding-left: 71px;
   }
 }
 
