@@ -565,23 +565,31 @@ h1 span {
 }
 
 .call {
-  height: 155px;
+  height: 153px;
   background-image: url(./images/Mask.jpg);
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   font-weight: 700;
   line-height: 1.4;
+  margin-top: 60px;
 }
 
 @media (min-width: 768px) {
   .call {
-    margin-top: 40px;
+    margin-top: 80px;
   }
 }
+
+/* @media (min-width: 768px) {
+  .call {
+    margin-top: 40px;
+  }
+} */
+
 
 .callText {
   text-align: center;
