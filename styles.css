@@ -50,19 +50,19 @@ img {
 
 .img {
   width: 358px;
-  height: 430px;
+
 }
 
 @media (min-width: 768px) {
   .img {
     width: 213px;
-    height: 351px;
+   =
   }
 }
 
 @media (min-width: 1366px) {
   .img {
-    height: 430px;
+  
     width: 265px;
   }
 }
