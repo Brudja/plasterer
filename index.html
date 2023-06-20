@@ -85,6 +85,7 @@
       </section>
       <section class="container ourUsSecond">
         <h2 class="ourUsSecondTitle">У вартість входить</h2>
+        <div>
         <ul class="list ourUsSecondList">
           <li class="ourUsSecondItem img">
             <img
@@ -116,8 +117,8 @@
               Нанесення гіпсової або цементно-вапняної суміші
             </p>
           </li>
-          <!-- </ul> -->
-          <!-- <ul class="list ourUsSecondListTwo"> -->
+          </ul>
+          <ul class="list ourUsSecondListTwo">
           <li class="ourUsSecondItem img">
             <img
               class="img"
@@ -148,6 +149,7 @@
             <p class="text-overlay">Здача об’єкта клієнту</p>
           </li>
         </ul>
+      </div>
       </section>
       <section id="OurWorks" class="container">
         <div class="ourWorksBox">
@@ -164,30 +166,52 @@
         </div>
         <div>
           <h2 class="ourWorksTitle">Наші роботи</h2>
-          <div class="swiper mySwiper" style="text-align: center">
+          <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img src="./images/works/0.jpg" width="358px" height="400px" />
+                <img src="./images/works/0.jpg" />
               </div>
               <div class="swiper-slide">
-                <img src="./images/works/1.jpg" width="358px" height="400px" />
+                <img src="./images/works/1.jpg" />
               </div>
               <div class="swiper-slide">
-                <img src="./images/works/2.jpg" width="358px" height="400px" />
+                <img src="./images/works/2.jpg" />
               </div>
               <div class="swiper-slide">
-                <img src="./images/works/3.jpg" width="358px" height="400px" />
+                <img src="./images/works/3.jpg" />
               </div>
               <div class="swiper-slide">
-                <img src="./images/works/4.jpg" width="358px" height="400px" />
+                <img src="./images/works/4.jpg" />
               </div>
               <div class="swiper-slide">
-                <img src="./images/works/5.jpg" width="358px" height="400px" />
+                <img src=./images/works/5.jpg />
               </div>
             </div>
-            <!-- <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div> -->
-            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div thumbsSlider="" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/works/0.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/works/1.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/works/2.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/works/3.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/works/4.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/works/5.jpg" />
+              </div>
+              </div>
+            </div>
           </div>
           <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
         </div>
@@ -304,16 +328,19 @@
     </footer>
     <script>
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        spaceBetween: 10,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
         },
       });
     </script>
