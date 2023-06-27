@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: Merriweather, serif;
+  font-family: Roboto, sans-serif;
   color: var(--text-color-black);
   margin: 0;
 }
@@ -56,7 +56,7 @@ img {
 @media (min-width: 768px) {
   .img {
     width: 213px;
-   =
+   
   }
 }
 
@@ -263,14 +263,14 @@ img {
 @media (min-width: 768px) {
   .hero {
     max-width: 768px;
-    padding: 370px 0;
+    padding: 308px 0;
   }
 }
 
 @media (min-width: 1366px) {
   .hero {
     max-width: 2000px;
-    padding: 315px 306px 253px;
+    padding: 253px 269px;
   }
 }
 
